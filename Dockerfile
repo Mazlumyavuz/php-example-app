@@ -12,3 +12,10 @@ RUN chown -R www-data:www-data /var/www/html
 
 # Expose port 80 to allow communication to/from server
 EXPOSE 80
+
+
+
+
+# docker build -t php-example-app .
+# docker run -p 8080:80 php-example-app
+# http://localhost:8080 
